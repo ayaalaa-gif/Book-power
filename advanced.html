@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Of Bower</title>
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Select2 css -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- custome css -->
+    <link rel="stylesheet" href="css/custome.css">
+</head>
+<body>
+    <img src="img/bar.png" alt="" class="search-bar ad-bar">
+
+    <div class="advanced-section text-center">
+       <h4 class="font-weight-bolder">Advanced search</h4>
+    </div>
+    
+    <div class="advanced text-center d-flex justify-content-center col-md-10 col-sm-12 mx-auto">
+        <form action="" class=" adForm col-md-9  mx-auto">
+            <div class="form-group text-left">
+                <label for="exampleInputEmail1" class="font-weight-bolder ">Keywords</label>
+                <input type="text" class="form-control KW" >
+            </div>
+            <h5 class="font-weight-bolder text-left my-4">Filter your search</h5>
+            <div class="d-flex flex-wrap ">
+                <div class=" sContainer col-md-6 col-sm-12 d-flex flex-column text-left pl-0">
+                    <div class="p-0 mb-2">
+                        <label for="">Drug/Product name</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                    </div>
+                   <div class="p-0 mb-2">
+                    <label for="">Article type</label>
+                    <select class="advancedSearch" name="">
+                        <option></option>
+                        <option value="AL">item1</option>
+                        <option value="WY">item2</option>
+                        <option value="WY">item3</option>
+                        <option value="WY">item4</option>
+                        <option value="WY">item5</option>
+                    </select>
+                   </div>
+                    <div class="p-0 mb-2">
+                        <label for="">Indication</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                    </div>
+                    <div class="p-0 mb-2">
+                        <label for="">Comparators</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="sContainer col-md-6 col-sm-12 d-flex flex-column text-left pr-0">
+                   <div class="p-0 mb-2">
+                        <label for="">Topic of interest</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                   </div>
+                   <div class="p-0 mb-2">
+                        <label for="">Puplication date</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                   </div>
+                   <div class="p-0 mb-2">
+                        <label for="">Age range</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                   </div>
+                    <div class="p-0 mb-2">
+                        <label for="">Special population</label>
+                        <select class="advancedSearch" name="">
+                            <option></option>
+                            <option value="AL">item1</option>
+                            <option value="WY">item2</option>
+                            <option value="WY">item3</option>
+                            <option value="WY">item4</option>
+                            <option value="WY">item5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btnA mb-4">Search</button>
+        </form>
+
+    </div>
+
+    <div class="login-terms ad-terms  text-center text-white w-100">
+        <small class="">Terms of use. Privacy policy</small>
+    </div>
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Select2 js -->
+    <script src="js/select2.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.advancedSearch').select2();    
+    });
+    </script>
+</body>
+</html>
